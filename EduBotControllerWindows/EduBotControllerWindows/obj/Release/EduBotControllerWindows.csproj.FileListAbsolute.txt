@@ -1,0 +1,14 @@
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\bin\Release\EduBotControllerWindows.exe.config
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\bin\Release\EduBotControllerWindows.exe
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\bin\Release\EduBotControllerWindows.pdb
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.csprojResolveAssemblyReference.cache
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.Main.resources
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.Properties.Resources.resources
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.Settings.resources
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.csproj.GenerateResource.Cache
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.exe
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.pdb
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\bin\Release\EduBotControllerWindows.exe.manifest
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\bin\Release\EduBotControllerWindows.application
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.exe.manifest
+C:\Users\Erik\OneDrive\EduBotControllerWindows\EduBotControllerWindows\obj\Release\EduBotControllerWindows.application

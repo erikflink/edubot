@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="20dip">
+        <ImageButton
+            android:id="@+id/imageButtonUp"
+            android:src="@drawable/arrowup"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dip" />
+        <ImageButton
+            android:id="@+id/imageButtonLeft"
+            android:src="@drawable/arrowleft"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_below="@id/imageButtonUp"
+            android:layout_toLeftOf="@id/imageButtonUp"
+            android:layout_marginRight="20dip" />
+        <ImageButton
+            android:id="@+id/imageButtonRight"
+            android:src="@drawable/arrowright"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_below="@id/imageButtonUp"
+            android:layout_toRightOf="@id/imageButtonUp"
+            android:layout_marginLeft="20dip" />
+        <ImageButton
+            android:id="@+id/imageButtonDown"
+            android:src="@drawable/arrowdown"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:layout_below="@id/imageButtonLeft"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dip" />
+        <Button
+            android:text="Settings and debugging"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSettings"
+            android:layout_alignParentBottom="true" />
+        <ImageButton
+            android:src="@drawable/joystick"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_below="@id/imageButtonDown"
+            android:id="@+id/imageButtonJoystick"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dip" />
+        <ImageButton
+            android:src="@drawable/record"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:id="@+id/imageButtonProgram"
+            android:layout_below="@id/imageButtonUp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

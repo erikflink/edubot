@@ -1,0 +1,17 @@
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\EduBotControllerAndroid.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\Java.Interop.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\Mono.Android.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\mscorlib.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Core.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Threading.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Runtime.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Collections.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Collections.Concurrent.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Reflection.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Linq.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Runtime.InteropServices.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Runtime.Extensions.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Reflection.Extensions.dll
+C:\Users\Erik\OneDrive\EduBotControllerAndroid\EduBotControllerAndroid\obj\Release\android\assets\System.Runtime.Serialization.dll

@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net.Sockets;
+using System.Net;
+
+namespace EduBotControllerAndroid
+{
+    public class EduBotClient
+    {
+        static Socket sender;
+        public static IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Parse("192.168.137.1"), 1337);
+        public static string log = "";
+
+        public EduBotClient()
+        {
+
+        }
+
+        public IPEndPoint LocalEndPoint
+        {
+            get
+            {
+                return localEndPoint;
+            }
+            set
+            {
+                localEndPoint = value;
+            }
+        }
+
+        public string Log(string message)
+        {
+            if (log.Length != 0) log += "\n";
+            log += DateTime.Now.ToString("h:mm:ss:  ") + message;
+
+            return log;
+        }
+
+        public string GetLog()
+        {
+            return log;
+        }
+
+        public void ClearLog()
+        {
+            log = "";
+        }
+
+        public void sendCommand(string command)
+        {
+            connect();
+            send(command);
+            disconnect();
+        }
+
+        void connect()
+        {
+            try
+            {
+                sender = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                sender.SendTimeout = 500;
+
+                IAsyncResult result = sender.BeginConnect(localEndPoint.Address, localEndPoint.Port, null, null);
+
+                bool success = result.AsyncWaitHandle.WaitOne(500, true);
+
+                if (!success)
+                {
+                    sender.Close();
+                    throw new ApplicationException("Failed to connect server.");
+                }
+            }
+            catch
+            {
+                Log("Connection error!");
+            }
+        }
+
+        void send(string command)
+        {
+            try
+            {
+                byte[] msg = Encoding.ASCII.GetBytes(command);
+                sender.Send(msg);
+                Log("Successfully sent: " + command);
+            }
+            catch
+            {
+                Log("Sending error!");
+            }
+        }
+
+        void disconnect()
+        {
+            try
+            {
+                sender.Close();
+            }
+            catch
+            {
+                Log("Could not close socket!");
+            }
+        }
+    }
+}
